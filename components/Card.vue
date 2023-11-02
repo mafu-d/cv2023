@@ -42,6 +42,10 @@ defineProps({
   grid-template-columns: auto 1fr;
   min-height: 6rem;
 
+  @media print {
+    page-break-inside: avoid;
+  }
+
   &:hover {
     .card__ribbon {
       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
@@ -71,7 +75,9 @@ defineProps({
 
     &::before,
     &::after {
-      content: "";
+      @media screen {
+        content: "";
+      }
       width: 0;
       height: 0;
       border-style: solid;

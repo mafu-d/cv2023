@@ -8,7 +8,10 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;900&display=swap"
         rel="stylesheet"
       />
-      <Link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet" />
+      <Link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@100;400;900&display=swap"
+        rel="stylesheet"
+      />
     </Head>
     <MainTitle />
     <main>
@@ -27,8 +30,10 @@
   --red: #ff006e;
   --purple: #8338ec;
   --blue: #3a86ff;
-  color-scheme: dark;
-  font-size: 18px;
+  @media screen {
+    font-size: 18px;
+    color-scheme: dark;
+  }
 }
 body {
   font-family: "Quicksand", sans-serif;
@@ -43,15 +48,17 @@ main {
 
 h2 {
   font-size: 2.8rem;
-  color: var(--yellow);
-  background: linear-gradient(to bottom, var(--yellow), var(--orange));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   line-height: 1.2;
   position: relative;
   display: inline-block;
   letter-spacing: -0.05em;
+  color: var(--yellow);
+  @media screen {
+    background: linear-gradient(to bottom, var(--yellow), var(--orange));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   &::before {
     content: "";
@@ -89,13 +96,19 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  color: var(--blue);
-  background: linear-gradient(to bottom, var(--orange), var(--red));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   line-height: 1.2;
   letter-spacing: -0.04em;
+  color: var(--orange);
+
+  @media screen {
+    background: linear-gradient(to bottom, var(--orange), var(--red));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media print {
+    break-after: avoid;
+  }
 }
 
 .footer {

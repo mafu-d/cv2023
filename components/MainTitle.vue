@@ -12,6 +12,11 @@
       <div class="subtitle__title">Web Developer</div>
     </div>
   </header>
+  <div class="contact-details">
+    <p>Phone: 07443609124</p>
+    <p>Email: matthew.dawkins@gmail.com</p>
+    <p>Location: Somerset, UK</p>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -30,9 +35,12 @@ h1 {
   line-height: 1;
   margin: 0;
   grid-area: title;
-  animation: dullColours 10s infinite;
   opacity: 0.2;
   z-index: -1;
+  color: var(--blue);
+  @media screen {
+    animation: dullColours 10s infinite;
+  }
 }
 
 @keyframes dullColours {
@@ -64,23 +72,35 @@ h1 {
 
   &__name {
     font-size: 4rem;
-    background: linear-gradient(
-      to right,
-      var(--yellow),
-      var(--orange),
-      var(--red),
-      var(--purple),
-      var(--blue)
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--purple);
+    @media screen {
+      background: linear-gradient(
+        to right,
+        var(--yellow),
+        var(--orange),
+        var(--red),
+        var(--purple),
+        var(--blue)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   &__title {
     font-size: 2rem;
-    color: var(--yellow);
     font-family: "Raleway", sans-serif;
     font-weight: 100;
+    @media screen {
+      color: var(--yellow);
+    }
+  }
+}
+
+.contact-details {
+  text-align: center;
+  @media screen {
+    display: none;
   }
 }
 </style>

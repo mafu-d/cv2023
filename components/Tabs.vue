@@ -356,6 +356,10 @@ const activeTab = ref("essentials");
     padding: 0;
     margin: 0;
     border-bottom: 1px solid var(--purple);
+
+    @media print {
+      display: none;
+    }
   }
 
   &__tab {
@@ -372,6 +376,13 @@ const activeTab = ref("essentials");
     &:not(&--active):hover {
       background: linear-gradient(to bottom, transparent, var(--purple));
     }
+  }
+}
+
+@media print {
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 }
 </style>
