@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="card__ribbon">
+    <div class="card__ribbon" v-if="logo">
       <img :src="logo" alt="Logo" class="card__logo" />
     </div>
     <div class="card__content">
@@ -35,9 +35,10 @@ defineProps({
   padding: 1rem;
   border-radius: 0.5rem;
   margin: 3rem 0;
-  grid-template-columns: 8rem auto;
+  grid-template-columns: auto auto;
 
   &__ribbon {
+    width: 8rem;
     background: var(--accent);
     margin: -2rem 0;
     position: relative;
