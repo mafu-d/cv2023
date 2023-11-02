@@ -57,6 +57,7 @@ h2 {
     background: var(--orange);
     position: absolute;
     bottom: -0.18em;
+    border-radius: 0.08em;
   }
 
   &::after {
