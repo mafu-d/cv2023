@@ -40,16 +40,34 @@ defineProps({
   border-radius: 0.5rem;
   margin: 3rem 0;
   grid-template-columns: auto 1fr;
+  min-height: 6rem;
+
+  &:hover {
+    .card__ribbon {
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+      margin: -2rem 0.2rem -2rem -0.7rem;
+      width: 8.5rem;
+
+      &::before,
+      &::after {
+        scale: 1;
+      }
+    }
+
+    .card__logo {
+      width: 5.5rem;
+    }
+  }
 
   &__ribbon {
     width: 8rem;
     background: var(--accent);
-    margin: -2rem 0;
+    margin: -1.4rem 0;
     position: relative;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
     display: grid;
     justify-items: center;
     align-items: center;
+    transition: 0.2s ease;
 
     &::before,
     &::after {
@@ -59,18 +77,22 @@ defineProps({
       border-style: solid;
       position: absolute;
       filter: brightness(60%);
+      scale: 0.4;
+      transition: 0.2s ease;
     }
     &::before {
       border-width: 1rem 0 0 1rem;
       border-color: transparent transparent transparent var(--accent);
       left: 100%;
       top: 0;
+      transform-origin: 0 0;
     }
     &::after {
       border-width: 1rem 1rem 0 0;
       border-color: var(--accent) transparent transparent transparent;
       left: 100%;
       bottom: 0;
+      transform-origin: 0 100%;
     }
   }
 
@@ -79,6 +101,9 @@ defineProps({
     background: white;
     margin: 1rem;
     width: 5rem;
+    transition: 0.2s ease;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
   }
 
   &__title {
