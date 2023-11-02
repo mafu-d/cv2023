@@ -28,6 +28,7 @@ header {
   grid-template-areas: "title";
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 h1 {

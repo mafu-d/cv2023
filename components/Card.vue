@@ -73,6 +73,10 @@ defineProps({
     align-items: center;
     transition: 0.2s ease;
 
+    @media (max-width: 500px) {
+      display: none;
+    }
+
     &::before,
     &::after {
       @media screen {

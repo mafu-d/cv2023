@@ -352,6 +352,7 @@ const activeTab = ref("essentials");
 .tabs {
   &__tabs {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding: 0;
     margin: 0;
