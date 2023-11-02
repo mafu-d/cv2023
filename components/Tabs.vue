@@ -82,7 +82,7 @@
         </Card>
         <Card
           title="Webmaster, Diocese of Chelmsford, 2005-2010"
-          logo="/images/diocese-of-chelmsford-logo.png"
+          logo="/images/diocese-of-chelmsford-logo.webp"
           style="--accent: var(--red)"
         >
           <p>
@@ -154,7 +154,7 @@
           </p>
           <p><a href="https://inertiajs.com" target="_blank">inertiajs.com</a></p>
         </Card>
-        <Card title="Livewire" style="--accent: var(--orange)" logo="/images/livewire.png">
+        <Card title="Livewire" style="--accent: var(--orange)" logo="/images/livewire.webp">
           <p>
             A bit like Inertia, except with less JavaScript involved, Livewire
             allows me to create dynamic front-end experiences without stepping
@@ -164,7 +164,7 @@
           </p>
           <p><a href="https://livewire.dev" target="_blank">livewire.dev</a></p>
         </Card>
-        <Card title="Nuxt" style="--accent: var(--orange)" logo="/images/nuxt.png">
+        <Card title="Nuxt" style="--accent: var(--orange)" logo="/images/nuxt.webp">
           <p>
             Vue is great. Nuxt takes it to the next level. There are some great
             shortcuts included to speed up development (such as automatic
@@ -194,7 +194,7 @@
           </p>
           <p><a href="https://sass-lang.com" target="_blank">sass-lang.com</a></p>
         </Card>
-        <Card title="Lando" style="--accent: var(--orange)" logo="/images/lando.png">
+        <Card title="Lando" style="--accent: var(--orange)" logo="/images/lando.webp">
           <p>
             Working on multiple projects for different clients often means
             defining different server requirements. Docker is great for this,
@@ -203,7 +203,7 @@
           </p>
           <p><a href="https://lando.dev" target="_blank">lando.dev</a></p>
         </Card>
-        <Card title="Netlify" style="--accent: var(--orange)" logo="/images/netlify.png">
+        <Card title="Netlify" style="--accent: var(--orange)" logo="/images/netlify.webp">
           <p>
             For static sites, I love hosting with Netlify. The deployment
             process is a doddle, with Continuous Deployment built in - code,
@@ -221,7 +221,7 @@
           </p>
           <p><a href="https://deployer.org" target="_blank">deployer.org</a></p>
         </Card>
-        <Card title="VSCode" style="--accent: var(--orange)" logo="/images/vscode.png">
+        <Card title="VSCode" style="--accent: var(--orange)" logo="/images/vscode.webp">
           <p>
             When it comes to actually writing code, nothing beats Visual Studio
             Code. I can easily set mine up exactly the way I want, with a
