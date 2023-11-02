@@ -122,7 +122,7 @@
       <div class="tabs__content" v-show="activeTab === 'tools'">
         <h2>A few of my favourite things</h2>
 
-        <Card title="Laravel" style="--accent: var(--orange)">
+        <Card title="Laravel" style="--accent: var(--orange)" logo="/images/laravel.svg">
           <p>
             For projects that depend on back-end functionality, Laravel is hard
             to beat. It’s powerful, flexible, widely supported, and a joy to
@@ -131,8 +131,9 @@
             single landing page, but really shines when the project calls for a
             complex database structure or user authentication.
           </p>
+          <p><a href="https://laravel.com" target="_blank">laravel.com</a></p>
         </Card>
-        <Card title="Vue" style="--accent: var(--orange)">
+        <Card title="Vue" style="--accent: var(--orange)" logo="/images/vue.svg">
           <p>
             When it comes to front-end frameworks, I’ve landed on Vue for many
             projects. It’s easy to use, expressive (I love that components
@@ -140,8 +141,9 @@
             variety of third-party libraries, and can be put onto existing web
             pages.
           </p>
+          <p><a href="https://vuejs.org" target="_blank">vuejs.org</a></p>
         </Card>
-        <Card title="Inertia" style="--accent: var(--orange)">
+        <Card title="Inertia" style="--accent: var(--orange)" logo="/images/inertia.png">
           <p>
             When a project needs a mix of front-end and back-end capability,
             Inertia allows me to connect Laravel and Vue together seamlessly, so
@@ -150,8 +152,9 @@
             successfully where the front-end experience is most important but
             some database integration is required.
           </p>
+          <p><a href="https://inertiajs.com" target="_blank">inertiajs.com</a></p>
         </Card>
-        <Card title="Livewire" style="--accent: var(--orange)">
+        <Card title="Livewire" style="--accent: var(--orange)" logo="/images/livewire.png">
           <p>
             A bit like Inertia, except with less JavaScript involved, Livewire
             allows me to create dynamic front-end experiences without stepping
@@ -159,8 +162,9 @@
             rely on Laravel but benefit from a dynamic-feeling front-end,
             Livewire is a great option.
           </p>
+          <p><a href="https://livewire.dev" target="_blank">livewire.dev</a></p>
         </Card>
-        <Card title="Nuxt" style="--accent: var(--orange)">
+        <Card title="Nuxt" style="--accent: var(--orange)" logo="/images/nuxt.png">
           <p>
             Vue is great. Nuxt takes it to the next level. There are some great
             shortcuts included to speed up development (such as automatic
@@ -168,8 +172,9 @@
             effortless. If I need to create a Vue project, I generally start by
             creating a Nuxt project.
           </p>
+          <p><a href="https://nuxtjs.org" target="_blank">nuxtjs.org</a></p>
         </Card>
-        <Card title="Craft CMS" style="--accent: var(--orange)">
+        <Card title="Craft CMS" style="--accent: var(--orange)" logo="/images/craft.png">
           <p>
             This is my CMS of choice. I’ve used WordPress (who hasn’t?), but
             I’ve found Craft CMS to be a more professional platform, with far
@@ -179,30 +184,34 @@
             structure (but not the content) is defined in config files that can
             be tracked in Git, which enables more robust deployment.
           </p>
+          <p><a href="https://craftcms.com" target="_blank">craftcms.com</a></p>
         </Card>
-        <Card title="Sass" style="--accent: var(--orange)">
+        <Card title="Sass" style="--accent: var(--orange)" logo="/images/sass.png">
           <p>
             Sure, CSS is awesome. But sometimes it needs a helping hand. That’s
             why I love using Sass, and typically install it by default in most
             projects. As a result, my CSS code is cleaner and more powerful.
           </p>
+          <p><a href="https://sass-lang.com" target="_blank">sass-lang.com</a></p>
         </Card>
-        <Card title="Lando" style="--accent: var(--orange)">
+        <Card title="Lando" style="--accent: var(--orange)" logo="/images/lando.png">
           <p>
             Working on multiple projects for different clients often means
             defining different server requirements. Docker is great for this,
             but creating Docker files manually is a pain. Lando takes the stress
             out of containerised development environments.
           </p>
+          <p><a href="https://lando.dev" target="_blank">lando.dev</a></p>
         </Card>
-        <Card title="Netlify" style="--accent: var(--orange)">
+        <Card title="Netlify" style="--accent: var(--orange)" logo="/images/netlify.png">
           <p>
             For static sites, I love hosting with Netlify. The deployment
             process is a doddle, with Continuous Deployment built in - code,
             commit, push, and BOOM it’s live.
           </p>
+          <p><a href="https://www.netlify.com" target="_blank">netlify.com</a></p>
         </Card>
-        <Card title="Deployer" style="--accent: var(--orange)">
+        <Card title="Deployer" style="--accent: var(--orange)" logo="/images/deployer.svg">
           <p>
             For more PHP sites, I prefer automating the deployment process to
             ensure nothing gets missed. Deployer is a PHP-based tool that
@@ -210,8 +219,9 @@
             from the repo, running any migrations or setup required, and all
             with zero downtime.
           </p>
+          <p><a href="https://deployer.org" target="_blank">deployer.org</a></p>
         </Card>
-        <Card title="VSCode" style="--accent: var(--orange)">
+        <Card title="VSCode" style="--accent: var(--orange)" logo="/images/vscode.png">
           <p>
             When it comes to actually writing code, nothing beats Visual Studio
             Code. I can easily set mine up exactly the way I want, with a
@@ -220,6 +230,7 @@
             code for me). I love the integrated terminal, and that I get all of
             that goodness for free.
           </p>
+          <p><a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a></p>
         </Card>
       </div>
       <div class="tabs__content" v-show="activeTab === 'beyond'">
@@ -276,6 +287,7 @@ const activeTab = ref("essentials");
     margin: 0;
     border-bottom: 1px solid var(--purple);
   }
+
   &__tab {
     padding: 0.5rem 1rem;
     font-weight: bold;

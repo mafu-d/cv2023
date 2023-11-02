@@ -21,6 +21,10 @@ defineProps({
 .card p {
   margin: 0;
 }
+
+.card a {
+  color: var(--accent);
+}
 </style>
 
 <style lang="scss" scoped>
@@ -35,7 +39,7 @@ defineProps({
   padding: 1rem;
   border-radius: 0.5rem;
   margin: 3rem 0;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
 
   &__ribbon {
     width: 8rem;

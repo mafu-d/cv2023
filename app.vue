@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;900&display=swap"
         rel="stylesheet"
       />
+      <Link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@100;400;900&display=swap" rel="stylesheet" />
     </Head>
     <MainTitle />
     <main>
@@ -27,7 +28,7 @@
   font-size: 18px;
 }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 0;
 }
 
@@ -47,6 +48,7 @@ h2 {
   line-height: 1.2;
   position: relative;
   display: inline-block;
+  letter-spacing: -0.05em;
 
   &::before {
     content: "";
@@ -89,5 +91,6 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
+  letter-spacing: -0.04em;
 }
 </style>
