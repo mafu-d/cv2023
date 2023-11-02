@@ -10,6 +10,9 @@
       />
     </Head>
     <MainTitle />
+    <main>
+      <Tabs />
+    </main>
   </div>
 </template>
 
@@ -25,5 +28,11 @@
 body {
   font-family: "Raleway", sans-serif;
   margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 </style>
