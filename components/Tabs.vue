@@ -325,7 +325,21 @@
             I’m now two years into my rebuild project, constructing a OO scale
             fictitious GWR branch line terminus set in the late 1930s,
             affectionately called “Frontington and Backwoods”. I have documented
-            my progress through YouTube, Facebook and Instagram.
+            my progress through
+            <a
+              href="https://www.youtube.com/@FrontingtonandBackwoodsRailway"
+              target="_blank"
+              >YouTube</a
+            >,
+            <a
+              href="https://www.facebook.com/FrontingtonBackwoods"
+              target="_blank"
+              >Facebook</a
+            >
+            and
+            <a href="https://instagram.com/frontington" target="_blank"
+              >Instagram</a
+            >.
           </p>
         </Card>
         <Card title="Church" style="--accent: var(--red)">
