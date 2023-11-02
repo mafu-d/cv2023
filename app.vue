@@ -14,6 +14,9 @@
     <main>
       <Tabs />
     </main>
+    <footer class="footer">
+      &copy; 2023 Matthew Dawkins. All rights reserved.
+    </footer>
   </div>
 </template>
 
@@ -93,5 +96,11 @@ h3 {
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
   letter-spacing: -0.04em;
+}
+
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
 }
 </style>
