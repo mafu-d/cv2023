@@ -36,11 +36,18 @@
         <p>
           I’m a full-stack web developer with 20 years of experience behind me.
           I love using PHP, JavaScript, CSS, Laravel, Vue, Craft CMS, and other
-          LAMP stack technologies. Having worked in-house and agency-side, I’m
-          now looking for a future where I can make a positive impact - not just
-          to turnover but to people’s lives. I’m passionate about the
-          environment (because that’s where I live), I occasionally dream in
-          code, and I love a good cup of tea.
+          LAMP stack and front end
+          <a href="#" @click.prevent="activeTab = 'tools'">technologies</a>.
+          Having worked in-house and agency-side, I’m now looking for a future
+          where I can make a positive impact - not just to turnover but to
+          people’s lives. I’m passionate about the
+          <a
+            href="https://www.tbtmarketing.com/blog/reducing-your-offices-carbon-footprint-from-home"
+            target="_blank"
+            >environment</a
+          >
+          (because that’s where I live), I occasionally dream in code, and I
+          love a good cup of tea.
         </p>
 
         <h3>Current employment</h3>
@@ -122,7 +129,16 @@
       <div class="tabs__content" v-show="activeTab === 'tools'">
         <h2>A few of my favourite things</h2>
 
-        <Card title="Laravel" style="--accent: var(--orange)" logo="/images/laravel.svg">
+        <p>
+          I'm a full-stack developer. That means I love front-end and back-end
+          equally. While not exhaustive, these are the tools I enjoy using most:
+        </p>
+
+        <Card
+          title="Laravel"
+          style="--accent: var(--orange)"
+          logo="/images/laravel.svg"
+        >
           <p>
             For projects that depend on back-end functionality, Laravel is hard
             to beat. It’s powerful, flexible, widely supported, and a joy to
@@ -133,7 +149,11 @@
           </p>
           <p><a href="https://laravel.com" target="_blank">laravel.com</a></p>
         </Card>
-        <Card title="Vue" style="--accent: var(--orange)" logo="/images/vue.svg">
+        <Card
+          title="Vue"
+          style="--accent: var(--orange)"
+          logo="/images/vue.svg"
+        >
           <p>
             When it comes to front-end frameworks, I’ve landed on Vue for many
             projects. It’s easy to use, expressive (I love that components
@@ -143,7 +163,11 @@
           </p>
           <p><a href="https://vuejs.org" target="_blank">vuejs.org</a></p>
         </Card>
-        <Card title="Inertia" style="--accent: var(--orange)" logo="/images/inertia.png">
+        <Card
+          title="Inertia"
+          style="--accent: var(--orange)"
+          logo="/images/inertia.png"
+        >
           <p>
             When a project needs a mix of front-end and back-end capability,
             Inertia allows me to connect Laravel and Vue together seamlessly, so
@@ -152,9 +176,15 @@
             successfully where the front-end experience is most important but
             some database integration is required.
           </p>
-          <p><a href="https://inertiajs.com" target="_blank">inertiajs.com</a></p>
+          <p>
+            <a href="https://inertiajs.com" target="_blank">inertiajs.com</a>
+          </p>
         </Card>
-        <Card title="Livewire" style="--accent: var(--orange)" logo="/images/livewire.webp">
+        <Card
+          title="Livewire"
+          style="--accent: var(--orange)"
+          logo="/images/livewire.webp"
+        >
           <p>
             A bit like Inertia, except with less JavaScript involved, Livewire
             allows me to create dynamic front-end experiences without stepping
@@ -164,17 +194,25 @@
           </p>
           <p><a href="https://livewire.dev" target="_blank">livewire.dev</a></p>
         </Card>
-        <Card title="Nuxt" style="--accent: var(--orange)" logo="/images/nuxt.webp">
+        <Card
+          title="Nuxt"
+          style="--accent: var(--orange)"
+          logo="/images/nuxt.webp"
+        >
           <p>
             Vue is great. Nuxt takes it to the next level. There are some great
             shortcuts included to speed up development (such as automatic
             imports), and its ability to generate static sites makes deployment
             effortless. If I need to create a Vue project, I generally start by
-            creating a Nuxt project.
+            creating a Nuxt project (in fact, this CV was made with Nuxt).
           </p>
           <p><a href="https://nuxtjs.org" target="_blank">nuxtjs.org</a></p>
         </Card>
-        <Card title="Craft CMS" style="--accent: var(--orange)" logo="/images/craft.png">
+        <Card
+          title="Craft CMS"
+          style="--accent: var(--orange)"
+          logo="/images/craft.png"
+        >
           <p>
             This is my CMS of choice. I’ve used WordPress (who hasn’t?), but
             I’ve found Craft CMS to be a more professional platform, with far
@@ -186,15 +224,25 @@
           </p>
           <p><a href="https://craftcms.com" target="_blank">craftcms.com</a></p>
         </Card>
-        <Card title="Sass" style="--accent: var(--orange)" logo="/images/sass.png">
+        <Card
+          title="Sass"
+          style="--accent: var(--orange)"
+          logo="/images/sass.png"
+        >
           <p>
             Sure, CSS is awesome. But sometimes it needs a helping hand. That’s
             why I love using Sass, and typically install it by default in most
             projects. As a result, my CSS code is cleaner and more powerful.
           </p>
-          <p><a href="https://sass-lang.com" target="_blank">sass-lang.com</a></p>
+          <p>
+            <a href="https://sass-lang.com" target="_blank">sass-lang.com</a>
+          </p>
         </Card>
-        <Card title="Lando" style="--accent: var(--orange)" logo="/images/lando.webp">
+        <Card
+          title="Lando"
+          style="--accent: var(--orange)"
+          logo="/images/lando.webp"
+        >
           <p>
             Working on multiple projects for different clients often means
             defining different server requirements. Docker is great for this,
@@ -203,15 +251,25 @@
           </p>
           <p><a href="https://lando.dev" target="_blank">lando.dev</a></p>
         </Card>
-        <Card title="Netlify" style="--accent: var(--orange)" logo="/images/netlify.webp">
+        <Card
+          title="Netlify"
+          style="--accent: var(--orange)"
+          logo="/images/netlify.webp"
+        >
           <p>
             For static sites, I love hosting with Netlify. The deployment
             process is a doddle, with Continuous Deployment built in - code,
             commit, push, and BOOM it’s live.
           </p>
-          <p><a href="https://www.netlify.com" target="_blank">netlify.com</a></p>
+          <p>
+            <a href="https://www.netlify.com" target="_blank">netlify.com</a>
+          </p>
         </Card>
-        <Card title="Deployer" style="--accent: var(--orange)" logo="/images/deployer.svg">
+        <Card
+          title="Deployer"
+          style="--accent: var(--orange)"
+          logo="/images/deployer.svg"
+        >
           <p>
             For more PHP sites, I prefer automating the deployment process to
             ensure nothing gets missed. Deployer is a PHP-based tool that
@@ -221,7 +279,11 @@
           </p>
           <p><a href="https://deployer.org" target="_blank">deployer.org</a></p>
         </Card>
-        <Card title="VSCode" style="--accent: var(--orange)" logo="/images/vscode.webp">
+        <Card
+          title="VSCode"
+          style="--accent: var(--orange)"
+          logo="/images/vscode.webp"
+        >
           <p>
             When it comes to actually writing code, nothing beats Visual Studio
             Code. I can easily set mine up exactly the way I want, with a
@@ -230,11 +292,18 @@
             code for me). I love the integrated terminal, and that I get all of
             that goodness for free.
           </p>
-          <p><a href="https://code.visualstudio.com" target="_blank">code.visualstudio.com</a></p>
+          <p>
+            <a href="https://code.visualstudio.com" target="_blank"
+              >code.visualstudio.com</a
+            >
+          </p>
         </Card>
       </div>
+
       <div class="tabs__content" v-show="activeTab === 'beyond'">
         <h2>When I'm not at work</h2>
+        <p>All work and no play makes Jack a dull boy. I'm not Jack.</p>
+
         <Card title="Theatre" style="--accent: var(--red)">
           <p>
             I’ve been involved in a number of local amateur groups in Frome and
@@ -267,6 +336,7 @@
           </p>
         </Card>
       </div>
+
       <div class="tabs__content" v-show="activeTab === 'contact'">
         <h2>Give me a bell</h2>
       </div>
