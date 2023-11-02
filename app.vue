@@ -5,7 +5,7 @@
       <Link rel="preconnect" href="https://fonts.googleapis.com" />
       <Link rel="preconnect" href="https://fonts.gstatic.com" />
       <Link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;900&display=swap"
         rel="stylesheet"
       />
     </Head>
