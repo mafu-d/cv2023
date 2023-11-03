@@ -6,7 +6,7 @@
       <p>Email: matthew.dawkins@gmail.com</p>
       <p>Location: Somerset, UK</p>
     </div>
-    <form name="contact" netlify>
+    <form name="contact" method="POST" netlify>
       <div>
         <label for="name">Your name:</label>
         <input type="text" name="name" id="name" required />
