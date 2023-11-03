@@ -16,6 +16,7 @@
     <p>Phone: 07443609124</p>
     <p>Email: matthew.dawkins@gmail.com</p>
     <p>Location: Somerset, UK</p>
+    <p>For an interactive version of this CV, check out cv.matthewdawkins.co.uk.</p>
   </div>
 </template>
 

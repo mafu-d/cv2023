@@ -101,3 +101,12 @@
     </ul>
   </div>
 </template>
+
+<style>
+@media print {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+</style>
