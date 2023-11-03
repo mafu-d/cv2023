@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <li class="card">
     <div class="card__ribbon" v-if="logo">
       <img :src="logo" alt="Logo" class="card__logo" />
     </div>
@@ -7,7 +7,7 @@
       <header class="card__title">{{ title }}</header>
       <slot />
     </div>
-  </div>
+  </li>
 </template>
 
 <script setup>
