@@ -5,13 +5,34 @@
       <Link rel="preconnect" href="https://fonts.googleapis.com" />
       <Link rel="preconnect" href="https://fonts.gstatic.com" />
       <Link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;900&display=swap"
-        rel="stylesheet"
-      />
-      <Link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;600;700&family=Raleway:wght@100;400;900&display=swap"
         rel="stylesheet"
       />
+      <Link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/favicon/apple-touch-icon.png"
+      />
+      <Link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/favicon/favicon-32x32.png"
+      />
+      <Link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/favicon/favicon-16x16.png"
+      />
+      <Link rel="manifest" href="/favicon/site.webmanifest" />
+      <Link
+        rel="mask-icon"
+        href="/favicon/safari-pinned-tab.svg"
+        color="#5bbad5"
+      />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="theme-color" content="#ffffff" />
     </Head>
     <MainTitle />
     <main>
