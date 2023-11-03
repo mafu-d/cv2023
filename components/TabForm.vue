@@ -6,7 +6,16 @@
       <p>Email: matthew.dawkins@gmail.com</p>
       <p>Location: Somerset, UK</p>
     </div>
-    <form name="contact" method="POST" netlify>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        <label>Don’t fill this out: <input name="bot-field" /></label>
+      </p>
       <div>
         <label for="name">Your name:</label>
         <input type="text" name="name" id="name" required />
