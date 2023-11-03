@@ -75,7 +75,7 @@
           shortcuts included to speed up development (such as automatic
           imports), and its ability to generate static sites makes deployment
           effortless. If I need to create a Vue project, I generally start by
-          creating a Nuxt project (in fact, this CV was made with Nuxt).
+          creating a Nuxt project (in fact, <a href="https://github.com/mafu-d/cv2023" target="_blank">this CV</a> was made with Nuxt).
         </p>
         <p><a href="https://nuxtjs.org" target="_blank">nuxtjs.org</a></p>
       </Card>
@@ -144,7 +144,7 @@
         logo="/images/deployer.svg"
       >
         <p>
-          For more PHP sites, I prefer automating the deployment process to
+          For PHP sites, I prefer automating the deployment process to
           ensure nothing gets missed. Deployer is a PHP-based tool that handles
           all that for me, SSHing into the server, pulling the code from the
           repo, running any migrations or setup required, and all with zero

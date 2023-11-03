@@ -25,7 +25,13 @@
       >
         <p>
           Leading a small team of developers in creating B2B marketing solutions
-          for clients in the IT sector.
+          for clients in the IT sector. I've made corporate websites, campaign
+          landing pages, member portals, tools, and more. My role is mainly
+          focused on development, but I also provide regular training for my
+          colleagues, as well as supporting and offering consultancy directly to
+          clients. I'm also on TBT's <em>Mission Zero</em> team, which is
+          responsible for leading our business towards net zero carbon
+          footprint.
         </p>
         <p>
           <a href="https://tbtmarketing.com" target="_blank"
