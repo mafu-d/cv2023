@@ -44,6 +44,11 @@ defineProps({
 
   @media print {
     page-break-inside: avoid;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    margin: 1rem 0;
+    min-height: unset;
   }
 
   &:hover {
@@ -72,6 +77,10 @@ defineProps({
     justify-items: center;
     align-items: center;
     transition: 0.2s ease;
+
+    @media print {
+      margin: 0;
+    }
 
     @media (max-width: 500px) {
       display: none;
