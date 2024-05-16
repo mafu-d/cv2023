@@ -3,8 +3,8 @@
     <h2>What you need to know</h2>
     <p>
       I’m a full-stack web developer with 20 years of experience behind me. I
-      love using PHP, JavaScript, CSS, Laravel, Vue, Craft CMS, and other LAMP
-      stack and front end
+      love using PHP, JavaScript, CSS (Sass), Laravel, Vue, Craft CMS, and other
+      LAMP stack and front end
       <a href="#" @click.prevent="$emit('selectTab', 'tools')">technologies</a>.
       Having worked in-house and agency-side, I’m now looking for a future where
       I can make a positive impact - not just to turnover but to people’s lives.

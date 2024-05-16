@@ -9,7 +9,11 @@
           I’ve been involved in a number of local amateur groups in Frome and
           Castle Cary over the past few years, taking both ensemble and lead
           parts. If it involves any combination of acting, singing or dancing,
-          I’m up for it. 2024 will also see my debut as a Musical Director.
+          I’m up for it. Recent roles include Ratty in
+          <em>The Wind In The Willows</em> (Merlin Theatre Productions) and Lord
+          Evelyn Oakleigh in <em>Anything Goes</em> (Frome Memorial Theatre
+          Company). 2024 also saw my debut as a Musical Director for
+          <em>The Wizard Of Oz</em> (Cary Amateur Theatrical Society).
         </p>
       </Card>
       <Card title="Music" style="--accent: var(--red)">
